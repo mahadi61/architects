@@ -3,3 +3,170 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --dark-1: #131313;
+    --dark-2: #727272;
+    --primary-color: #FF900E;
+}
+.dark-light-color{
+    color: var(--dark-2);
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+}
+/*----------- header area css start -------------*/
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/*-----------header area css end ----------------*/
+
+
+/*-----------features area css start----------------*/
+.container{
+    display: flex;
+    
+}
+.features-img-area{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-img-area div{
+    width: 300px;
+}
+.features-img-area div img{
+    width: 100%;
+}
+.features-explore{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 60px 0 75px ;
+    gap: 24px;
+
+}
+.features-explore h1{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+/*-----------features area css end ----------------*/
+/* fact area css start */
+.fact{
+    text-align: left;
+}
+.fact div{
+    width: 500px;
+}
+.fact div h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--dark-1);
+    margin-bottom: 20px;
+}
+.fact div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-2);
+}
+
+/* fact area css end */
+ 
+/* work section start */
+.work-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-items: center;
+    margin: 100px auto;
+
+}
+.work-section div{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.work-section div h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--dark-1);
+}
+
+
+
+
+
+/* work section  end*/
+
+
+
+
+/*----------sponsors-area css start----------------*/
+.sponsors-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sponsors-title{
+    text-align: center;
+    width: 542px;
+}
+.sponsors-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.sponsors-title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-2);
+}
+.sponsors-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+/*----------sponsors-area css end----------------*/
+
+/* footer area css start */
+footer{
+    background-color: #FFF4E7;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* footer area css end */
