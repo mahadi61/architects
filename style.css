@@ -293,6 +293,9 @@ nav ul li a{
     justify-content: space-between;
     margin-top: 50px;
 }
+.sponsors-list div img{
+    filter: grayscale(100%);
+}
 
 
 /*----------sponsors-area css end----------------*/
@@ -398,6 +401,10 @@ footer{
     }
     .features-details {
         gap: 15px;
+        align-items: center;
+    }
+    .features-architect-img {
+        width: 100%;
     }
 
 
