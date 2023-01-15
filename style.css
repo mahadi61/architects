@@ -8,6 +8,9 @@
     --dark-2: #727272;
     --primary-color: #FF900E;
 }
+body{
+    font-family: 'Work Sans', sans-serif;
+}
 .dark-light-color{
     color: var(--dark-2);
 }
@@ -78,7 +81,7 @@ nav ul li a{
 }
 .banner-title{
     text-align: center;
-    width: 550px;
+    width: 650px;
     margin: 50px auto;
 }
 .banner-title h1{
@@ -163,6 +166,7 @@ nav ul li a{
     padding: 30px;
     box-shadow: 2px 2px 5px 5px rgb(21 21 21 / 8%);
     margin: 20px 0 30px;
+    transition: all 0.5s ease-in;
     
 }
 .single-card h2{
@@ -170,6 +174,10 @@ nav ul li a{
     font-weight: 700;
     color: var(--dark-1);
     margin-bottom: 10px;
+}
+.single-card:hover{
+    background-color: #FF900E;
+    box-shadow: 2px 3px 12px 5px rgb(67 48 48 / 64%);
 }
 
 .experience-year button{
@@ -189,7 +197,15 @@ nav ul li a{
     font-weight: 500;
 }
 .features-architect-img{
+    padding-left: 40px;
+    width: 700px;
+}
+.features-architect-img img{
+    width: 100%;
+}
+.experience-year{
     position: relative;
+    bottom: 100px;
 }
 /* features details area css end */
 
@@ -232,6 +248,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    transition: all .8s ease-in-out ;
 }
 .work-section div h1{
     font-size: 45px;
@@ -239,6 +256,9 @@ nav ul li a{
     color: var(--dark-1);
 }
 
+.work-section div:hover{
+    background-color: #FF900E;
+}
 
 
 
@@ -290,3 +310,17 @@ footer{
 }
 
 /* footer area css end */
+
+/* media query area */
+
+@media screen and (max-width: 768px){
+    
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    
+
+
+}
+
