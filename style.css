@@ -32,6 +32,19 @@ header{
     flex-direction: column;
     align-items: center;
 }
+.hero-title{
+    text-align: center;
+    width: 550px;
+}
+.hero-title h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--dark-1);
+}
+.hero-title p{
+    font-size: 16px;
+    color: var(--dark-2);
+}
 
 
 
@@ -73,6 +86,62 @@ header{
 }
 
 /*-----------features area css end ----------------*/
+/* features details area css start */
+.features-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 55px;
+    margin-top: 100px;
+}
+.features-list-title{
+    width: 400px;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    border-left: 8px solid #FF900E;
+}
+.features-list-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--dark-1);
+}
+.features-list-title p{
+    font-size: 16px;
+    color: var(--dark-2);
+}
+.single-card{
+    padding: 30px;
+    box-shadow: 2px 2px 5px 5px rgb(21 21 21 / 8%);
+    margin: 20px 0 30px;
+    
+}
+.single-card h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-1);
+    margin-bottom: 10px;
+}
+
+.experience-year button{
+    border: none;
+    background-color: var(--primary-color);
+    color: #ffff;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+.experience-year button h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.experience-year p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.features-architect-img{
+    position: relative;
+}
+/* features details area css end */
+
 /* fact area css start */
 .fact{
     text-align: left;
@@ -111,7 +180,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 8px;
 }
 .work-section div h1{
     font-size: 45px;
