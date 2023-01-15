@@ -299,6 +299,40 @@ nav ul li a{
 
 
 /*----------sponsors-area css end----------------*/
+/* contact us area css start */
+.contact-us-area{
+    text-align: center;
+    margin: 30px auto;
+    width: 100%;
+    background-color: #fff0bcdb;
+    padding: 30px 0;
+}
+
+.contact-us-area h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--dark-1);
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form input {
+    border: none;
+    background-color: #ffff;
+    height: 30px;
+    padding: 20px 80px 20px 21px;
+    margin-bottom: 10px;
+}
+.form textarea {
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* contact us area css end */
 
 /* footer area css start */
 footer{
@@ -308,7 +342,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    
 }
 
 /* footer area css end */
